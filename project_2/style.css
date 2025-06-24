@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Underdog", system-ui;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    color: black;
+    
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1676923902105-19d5c90d585c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1N3x8fGVufDB8fHx8fA%3D%3D);
+     background-size: 100% 100%;
+    
+}
+
+#nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   font-weight: 900;
+   font-size: 45px;
+}
+
+#nav i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#full{
+    height: 100%;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.404);
+    position: fixed;
+  top: 0;
+  right: -60%;
+  backdrop-filter: blur(3px);
+  padding: 20px  50px;
+  border-bottom-left-radius:30px;
+  border-top-left-radius: 30px;
+  
+  
+  
+}
+
+#full h2{
+    font-size: 35px;
+    margin-top: 50px;
+
+
+   
+
+
+
+    
+    /* opacity: 0; */
+
+
+}
+
+#full i{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left:20px;
+    cursor: pointer;
+  
+    
+}

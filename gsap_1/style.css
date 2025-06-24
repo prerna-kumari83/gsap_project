@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+#box1{
+ height: 200px;
+ width: 200px;
+ background-color: blue;
+ text-align: center;
+ overflow: hidden;
+ 
+ 
+}
+#box2{
+ height: 200px;
+ width: 200px;
+ background-color: #ff00c3;
+ text-align: center;
+ overflow: hidden;
+
+
+ 
+}
+img{
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+  
+}

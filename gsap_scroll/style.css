@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+    
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+
+    
+}
+body{
+    overflow-x:hidden ;
+}
+
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: hwb(305 12% 15%);
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    color: hsl(0, 0%, 1%);
+    
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #f090eb;
+}
+
+#page2 h1{
+    font-size: 70vh;
+    text-transform:  uppercase;
+}
